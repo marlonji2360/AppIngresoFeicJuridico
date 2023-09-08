@@ -1,0 +1,11 @@
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\bin\Debug\AppIngresoFeicJuridico.exe.config
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\bin\Debug\AppIngresoFeicJuridico.exe
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\bin\Debug\AppIngresoFeicJuridico.pdb
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\obj\Debug\AppIngresoFeicJuridico.csproj.AssemblyReference.cache
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\obj\Debug\AppIngresoFeicJuridico.csproj.SuggestedBindingRedirects.cache
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\obj\Debug\AppIngresoFeicJuridico.frmSolicitante.resources
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\obj\Debug\AppIngresoFeicJuridico.Properties.Resources.resources
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\obj\Debug\AppIngresoFeicJuridico.csproj.GenerateResource.cache
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\obj\Debug\AppIngresoFeicJuridico.csproj.CoreCompileInputs.cache
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\obj\Debug\AppIngresoFeicJuridico.exe
+C:\Users\marlon_jimenez\OneDrive - Banco de los Trabajadores (bantrab)\Documentos\Proyectos\2023\Planillas\Software\AppIngresoFeicJuridico\AppIngresoFeicJuridico\obj\Debug\AppIngresoFeicJuridico.pdb

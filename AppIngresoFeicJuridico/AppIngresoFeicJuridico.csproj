@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E0F1ED7-C95D-4A7C-8A7D-436DC4513FD0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AppIngresoFeicJuridico</RootNamespace>
+    <AssemblyName>AppIngresoFeicJuridico</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UI\frmSolicitante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmSolicitante.Designer.cs">
+      <DependentUpon>frmSolicitante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\Beneficiario.cs" />
+    <Compile Include="Modelos\ComplementoPAPEP.cs" />
+    <Compile Include="Modelos\Conexion.cs" />
+    <Compile Include="Modelos\DatosAsociadoPep.cs" />
+    <Compile Include="Modelos\DatosBeneficiarioPI.cs" />
+    <Compile Include="Modelos\DatosBeneficiarioPJ.cs" />
+    <Compile Include="Modelos\DatosFirmante.cs" />
+    <Compile Include="Modelos\DatosIdentificacion.cs" />
+    <Compile Include="Modelos\DatosIngresosEgreso.cs" />
+    <Compile Include="Modelos\DatosInscripcionRepLegal.cs" />
+    <Compile Include="Modelos\DatosParientePep.cs" />
+    <Compile Include="Modelos\DatosPep.cs" />
+    <Compile Include="Modelos\DatosPersonaJuridicaProveeFondos.cs" />
+    <Compile Include="Modelos\DatosRegistro.cs" />
+    <Compile Include="Modelos\DatosRepresentante.cs" />
+    <Compile Include="Modelos\DocumentoCreacion.cs" />
+    <Compile Include="Modelos\EmpresaSolicitante.cs" />
+    <Compile Include="Modelos\EntidadSolicitante.cs" />
+    <Compile Include="Modelos\EscrituraSolicitante.cs" />
+    <Compile Include="Modelos\EstructuraAccionarium.cs" />
+    <Compile Include="Modelos\FuentesIngreso.cs" />
+    <Compile Include="Modelos\InfoEconomicaEmpresa.cs" />
+    <Compile Include="Modelos\InformacionEconomica.cs" />
+    <Compile Include="Modelos\Lugar.cs" />
+    <Compile Include="Modelos\MontosEgreso.cs" />
+    <Compile Include="Modelos\MontosIngreso.cs" />
+    <Compile Include="Modelos\Nacimiento.cs" />
+    <Compile Include="Modelos\OrganoAdmon.cs" />
+    <Compile Include="Modelos\OtrosFirmante.cs" />
+    <Compile Include="Modelos\OtroTipoSociedad.cs" />
+    <Compile Include="Modelos\PatenteSociedad.cs" />
+    <Compile Include="Modelos\PersonaIndividualProveeFondo.cs" />
+    <Compile Include="Modelos\PersonaJuridicaProveeFondo.cs" />
+    <Compile Include="Modelos\ProductoServicio.cs" />
+    <Compile Include="Modelos\RepresentanteLegal.cs" />
+    <Compile Include="Modelos\Residencia.cs" />
+    <Compile Include="Modelos\Root.cs" />
+    <Compile Include="Modelos\SociedadMercantil.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UI\frmSolicitante.resx">
+      <DependentUpon>frmSolicitante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
